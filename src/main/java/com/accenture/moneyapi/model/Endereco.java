@@ -5,7 +5,7 @@ import javax.persistence.Embeddable;
 @Embeddable
 public class Endereco {
 	
-	private String lagradouro;
+	private String logradouro;
 	private String numero;
 	private String complemento;
 	private String bairro;
@@ -14,11 +14,11 @@ public class Endereco {
 	private String estado;
 	
 	
-	public String getLagradouro() {
-		return lagradouro;
+	public String getLogradouro() {
+		return logradouro;
 	}
-	public void setLagradouro(String lagradouro) {
-		this.lagradouro = lagradouro;
+	public void setLogradouro(String logradouro) {
+		this.logradouro = logradouro;
 	}
 	public String getNumero() {
 		return numero;
